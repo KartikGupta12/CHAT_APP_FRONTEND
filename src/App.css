@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+
+/* .App {
+  min-height: 100vh;
+  display: flex;
+  background-image: url("./home3.avif");
+
+} */
+input {
+  caret-color: red;
+}
+.home{
+  min-height: 100vh;
+  display: flex;
+  background-image: url("./home3.avif");
+}
+input::placeholder {
+  color:white;
+  opacity: 1;
+}
+.homebox{
+  background: -webkit-linear-gradient(to right, #bdc3c7, #2c3e50);
+  background: linear-gradient(to right, #bdc3c7, #2c3e50);
+}
+/* #bdc3c7 → #2c3e50 */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+}
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+} */
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b65aa4;
+}
+
+.modal{
+  background: -webkit-linear-gradient(to right, #bdc3c7, #2c3e50);
+  background: linear-gradient(to right, #bdc3c7, #2c3e50);
+}
